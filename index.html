@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #container {
+            width: 700px;
+            height: 950px;
+            background-color: white;
+            border: 2px solid black;
+            outline: 4px solid white;
+            flex-direction: column;
+        }
+
+        #line {
+            width: 600px;
+            height: 2px;
+            background-color: black;
+            border: none;
+            margin: 30px 50px 0 50px;
+        }
+
+        h1 {
+            margin-top: 20px;
+            margin-left: 50px;
+            font-size: 35px;
+            color: #000000;
+        }
+
+        .discribtion {
+            color: green;
+            margin: 20px 0 10px 50px;
+        }
+
+        .details {
+            color: rgb(0, 0, 0);
+            margin: 0 50px 0 50px;
+            padding: 0;
+            font-size: 18px;
+
+        }
+
+        #media {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px 50px;
+            margin: 0 0 0 30px;
+            font-size: 18px;
+
+        }
+
+        #ul {
+            margin: 0 0 0 30px;
+        }
+
+        #me {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 20px 0 10px 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="line"></div>
+        <img id="me" src="me.jpg" alt="my picture">
+        <h1>Abdulrahman Arafat Almaghawry</h1>
+        <h3 class="discribtion">Full Stack Web Developer</h3>
+        <h4 class="details">Dekernes, Dakahlia, Egypt</h4>
+        <h4 class="details">+20 128 418 1761</h4>
+        <h4 class="details">abnra3838@gmail.com</h4>
+
+        <h3 class="discribtion">Skills</h3>
+
+        <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>Responsive Design</li>
+            <li>Figma (UI/UX Design)</li>
+        </ul>
+
+
+        <h3 class="discribtion">Languages</h3>
+        <h4 class="details">العربية - English - Русский</h4>
+
+        <h3 class="discribtion">Education</h3>
+        <h4 class="details">Bachelor's Degree in Computer Science, Faculty of Specific Education, Mansoura University
+        </h4>
+
+        <h3 class="discribtion">Social Media</h3>
+
+        <ul id="ul">
+            <li><a id="media" href="https://abdulrahmanarafat.github.io/link-tree/">GitHub</a></li>
+            <li><a id="media" href="https://www.linkedin.com/in/abdulrahman-arafat-al-mghawry-614987333/">LinkedIn</a>
+            </li>
+            <li><a id="media" href="https://www.facebook.com/abdul.rahman.arafat.376137/">Facebook</a></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
